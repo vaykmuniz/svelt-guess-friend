@@ -4,15 +4,15 @@
 
 <div class="mainContainer">
 	<Header />
-	<main class='mainContainer'>
+	<main class="mainContainer">
 		<slot />
 	</main>
 </div>
 
 <style>
 	.mainContainer {
-		height: 100%;
-		width: 100%;
-		background-color: aquamarine;
+		height: 100vh;
+		width: 100vw;
+		background-color: whitesmoke;
 	}
 </style>

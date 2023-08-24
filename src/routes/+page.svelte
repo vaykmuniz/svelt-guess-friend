@@ -43,7 +43,9 @@
 		display: inline-flex;
 		justify-content: center;
 		align-items: center;
+		flex-wrap: wrap;
 		gap: 8px;
+
 	}
 
 	.badge {
@@ -63,7 +65,7 @@
 	}
 
 	.badge:hover {
-		background-color: blue;
+		background-color: lightgreen;
 		color: white;
 	}
 </style>
